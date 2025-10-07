@@ -1,2 +1,2 @@
 # 📘 Anotações
-Aqui ficarão os arquivos e projetos referentes a esta seção.
+Todos os meus projetos e exercícios ficam aqui
