@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+           # = id
+           . = class
+           : = pseudo-class
+           :: = pseudo-element
+           > = children
+           */ 
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: aqua;
+        }
+
+        .especial {
+            background-color: cornflowerblue;
+        }
+
+        .especial::before {
+            content: '⇒';
+        }
+
+        .especial::after { 
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/SheilaneIA11" target="_blank" class="especial">Repositório GitHub</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">Site do W3C</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
